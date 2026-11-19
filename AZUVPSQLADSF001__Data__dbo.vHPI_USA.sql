@@ -1,0 +1,12 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+
+
+
+CREATE VIEW [dbo].[vHPI_USA]
+AS
+SELECT        [GEO_ID],[MONTH],[INDEX],[ERROR],[LoadDate]
+FROM            Holocron.dbo.INDEX_VALUE_MODEL_USA
+
+
+
